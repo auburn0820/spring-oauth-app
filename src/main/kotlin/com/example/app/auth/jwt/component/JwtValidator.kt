@@ -29,9 +29,3 @@ class JwtValidator(
     true
   }
 }
-
-fun main() {
-  val newyork = Date(System.currentTimeMillis())
-
-  newyork.before(Date())
-}

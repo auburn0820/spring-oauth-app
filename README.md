@@ -29,9 +29,8 @@ Spring Boot 기반 Google, Apple OAuth2 로그인 및 JWT 인증 예제 프로�
 
 ## 주요 경로 및 엔드포인트
 - `/` : 홈(로그인 후 진입)
-- `/login` : 소셜 로그인 페이지 (Spring Security 기본 제공)
-- `/login/oauth2/code/google` : Google OAuth2 리다이렉트 URI
-- `/login/oauth2/code/apple` : Apple OAuth2 리다이렉트 URI
+- `/oauth2/authorization/google` : Google OAuth2 리다이렉트 URI
+- `/oauth2/authorization/apple` : Apple OAuth2 리다이렉트 URI
 - `/swagger-ui/index.html` : API 문서
 - `/h2-console` : H2 DB 콘솔
 
